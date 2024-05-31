@@ -10,19 +10,19 @@ Voici mon projet bilan, regroupant mes travaux fait jusqu'à présent dans le ca
 
 ## Installation
 
-1- Cloner le repository : "git clone https://github.com/OceaneTaquin/Projet-Bilan.git"
-2- Accéder au dossier du projet : "Projet-Bilan"
-3- Installer les dépendances : "npm install"
+- Cloner le repository : git clone https://github.com/OceaneTaquin/Projet-Bilan.git
+- Accéder au dossier du projet : Projet-Bilan
+- Installer les dépendances : npm install
 
 ## Lancement
 
-1- Lancer l'application : "npm run dev"
+- Lancer l'application : npm run dev
 
 ## Langages utilisés
 
-1- Vue.js
-2- HTML
-3- CSS
+- Vue.js
+- HTML
+- CSS
 
 ## Auteur
 
