@@ -6,7 +6,7 @@ Voici mon projet bilan, regroupant mes travaux fait jusqu'à présent dans le ca
 
 ## Prérequis
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Vue.js](https://vuejs.org/) + [Node.js](https://nodejs.org/en/)
+[VSCode](https://code.visualstudio.com/) + [Vue.js](https://vuejs.org/) + [Node.js](https://nodejs.org/en/)
 
 ## Installation
 
