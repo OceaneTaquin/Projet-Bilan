@@ -1,29 +1,29 @@
-# Projet Bilan
+# Projet Bilan de Taquin Océane
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+Voici mon projet bilan, regroupant mes travaux fait jusqu'à présent dans le cadre de mes cours.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Prérequis
 
-## Customize configuration
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [Vue.js](https://vuejs.org/) + [Node.js](https://nodejs.org/en/)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Installation
 
-## Project Setup
+1- Cloner le repository : "git clone https://github.com/OceaneTaquin/Projet-Bilan.git"
+2- Accéder au dossier du projet : "Projet-Bilan"
+3- Installer les dépendances : "npm install"
 
-```sh
-npm install
-```
+## Lancement
 
-### Compile and Hot-Reload for Development
+1- Lancer l'application : "npm run dev"
 
-```sh
-npm run dev
-```
+## Langages utilisés
 
-### Compile and Minify for Production
+1- Vue.js
+2- HTML
+3- CSS
 
-```sh
-npm run build
-```
+## Auteur
+
+Taquin Océane
