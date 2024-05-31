@@ -10,9 +10,9 @@ Voici mon projet bilan, regroupant mes travaux fait jusqu'à présent dans le ca
 
 ## Installation
 
-- Cloner le repository : git clone https://github.com/OceaneTaquin/Projet-Bilan.git
-- Accéder au dossier du projet : Projet-Bilan
-- Installer les dépendances : npm install
+- Cloner le repository : 'git clone https://github.com/OceaneTaquin/Projet-Bilan.git'
+- Accéder au dossier du projet : 'Projet-Bilan'
+- Installer les dépendances : 'npm install'
 
 ## Lancement
 
