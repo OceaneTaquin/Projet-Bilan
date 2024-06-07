@@ -46,8 +46,8 @@ const scrollToTop = () => {
             <div class="container">
                 <ul>
                     <li><RouterLink to="/">Accueil</RouterLink></li>
-                    <li><RouterLink :to="{name: "Error404"}">Projets</RouterLink></li>
-                    <li><RouterLink :to="{name: "Error404"}">Contact</RouterLink></li>
+                    <li><RouterLink :to="{name: 'Error404'}">Projets</RouterLink></li>
+                    <li><RouterLink :to="{name: 'Error404'}">Contact</RouterLink></li>
                 </ul>
             </div>
         </nav>
