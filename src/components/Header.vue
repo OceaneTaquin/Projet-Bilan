@@ -52,4 +52,77 @@ const scrollToTop = () => {
             </div>
         </nav>
     </header>
+    <div class="logo-container">
+        <img src=""/>
+    </div>
 </template>
+
+<style scoped>
+.return-top-photo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+header nav ul li:hover a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin: 1rem 1rem 0;
+    border-radius: 0.5rem;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    max-width: 80%;
+    margin: 0 auto;
+    list-style: none;
+}
+
+header nav ul li {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+header nav ul li:hover {
+    transform: scale(1.1);
+    color: #ff6200;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 1rem;
+}
+</style>
