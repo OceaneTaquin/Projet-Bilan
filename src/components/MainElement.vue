@@ -1,11 +1,16 @@
 <template>
-    <div id="MyProjects">
-        <h2>Mes projets</h2>
-        <div class="projects-container">
-            <!--Utilisation de v-for pour afficher les différents projets-->
-            <Project v-for="(projet, index) in projects" :key="index" :project="project" class="project"/>
-        </div>
+  <div id="MyProjects">
+    <h2>Mes projets</h2>
+    <div class="projects-container">
+      <!--Utilisation de v-for pour afficher les différents projets-->
+      <Project
+        v-for="(projet, index) in projects"
+        :key="index"
+        :project="project"
+        class="project"
+      />
     </div>
+  </div>
 </template>
 
 <script setup>
@@ -45,21 +50,21 @@ const projects = [
 
 <style scoped>
 #MyProjects h2 {
-    font-size: xx-large;
-    text-align: center;
-    margin-top: 400px;
-    margin-bottom: 60px;
-    font-family: "Playfair Display", serif;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 400px;
+  margin-bottom: 60px;
+  font-family: "Playfair Display", serif;
 }
 
 .project {
-    max-width: 100%;
-    max-height: 200px;
-    width: 50px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    justify-content: center;
+  max-width: 100%;
+  max-height: 200px;
+  width: 50px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  justify-content: center;
 }
 </style>
