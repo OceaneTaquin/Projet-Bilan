@@ -35,3 +35,62 @@ const toggleModal = (value) => {
     </div>
   </main>
 </template>
+
+<style scoped>
+#WelcomeItem {
+  position: absolute;
+  top: 350px;
+  left: 20px;
+  right: 20px;
+  text-align: center;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+}
+
+.nav-link {
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+  background-color: chocolate;
+  border-radius: 10px;
+  border: 2px solid #a129b9;
+  font-family: "Playfair Display", serif;
+  font-size: 10px;
+  transition: background-color 0.5s ease;
+  text-align: center;
+}
+
+.nav-link:hover {
+  background-color: #a129b9;
+  border-color: rgba(239, 71, 5, 0.929);
+}
+
+#WelcomeItem h1,
+#WelcomeItem p {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.main-element-container {
+  margin-top: 300px;
+}
+
+#MyProjects {
+  font-size: small;
+  margin: 20px 50px;
+}
+</style>
