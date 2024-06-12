@@ -1,14 +1,8 @@
 <template>
   <footer>
-    <a href="https://github.com/OceaneTaquin" target="_blank"
-      ><img src="../assets/images/github.png" alt="logo-github"
-    /></a>
-    <a href="https://x.com/Nashiro_Las" target="_blank"
-      ><img src="../assets/images/twitter-alt-circle.png" alt="twitter"
-    /></a>
-    <a href="https://web.whatsapp.com/" target="_blank"
-      ><img src="../assets/images/whatsapp.png" alt="WhatsApp"
-    /></a>
+    <a href="https://github.com/OceaneTaquin" target="_blank"><img src="../assets/images/github.png" alt="logo-github"/></a>
+    <a href="https://x.com/Nashiro_Las" target="_blank"><img src="../assets/images/twitter-alt-circle.png" alt="twitter"/></a>
+    <a href="https://web.whatsapp.com/" target="_blank"><img src="../assets/images/whatsapp.png" alt="WhatsApp"/></a>
     <p>&copy; 2024 - Mon Projet-Bilan</p>
     <p>
       Dernière mise à jour : <time datetime="2024-06-07"> 07 juin 2024</time>

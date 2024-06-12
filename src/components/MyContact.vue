@@ -3,39 +3,16 @@
     <h2>Pour me contacter !</h2>
     <form @submit.prevent="submitForm">
       <div class="form-group">
-        <input
-          type="text"
-          id="firstName"
-          v-model="firstName"
-          placeholder="Prénom"
-          required
-        />
-        <input
-          type="text"
-          id="lastName"
-          v-model="lastName"
-          placeholder="Nom"
-          required
-        />
+        <input type="text" id="firstName" v-model="firstName" placeholder="Prénom" required/>
+        <input type="text" id="lastName" v-model="lastName" placeholder="Nom" required/>
       </div>
 
       <div class="from-group">
-        <input
-          type="text"
-          id="subject"
-          v-model="subject"
-          placeholder="Objet"
-          required
-        />
+        <input type="text" id="subject" v-model="subject" placeholder="Objet" required/>
       </div>
 
       <div class="form-group">
-        <textarea
-          id="message"
-          v-model="message"
-          placeholder="Message"
-          required
-        ></textarea>
+        <textarea id="message" v-model="message" placeholder="Message" required></textarea>
       </div>
 
       <button type="submit">Envoyer</button>

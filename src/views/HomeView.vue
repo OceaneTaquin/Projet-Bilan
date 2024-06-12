@@ -20,12 +20,8 @@ const toggleModal = (value) => {
       </p>
     </div>
 
-    <router-link to="#section1" class="nav-link"
-      >Aller à la section Projets</router-link
-    >
-    <router-link to="#section2" class="nav-link"
-      >Aller à la section Pour me contacter !</router-link
-    >
+    <router-link to="#section1" class="nav-link">Aller à la section Projets</router-link>
+    <router-link to="#section2" class="nav-link">Aller à la section Pour me contacter !</router-link>
 
     <div id="section1" class="main-element-container">
       <MainElement :showModal="showModal" :toggleModal="toggleModal" />

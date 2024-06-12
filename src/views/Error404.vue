@@ -23,7 +23,6 @@ export default {};
 .error-image {
   width: 100%;
   height: 100px;
-  background: url("../assets/images/error\ 404.png") center center/cover
-    no-repeat;
+  background: url("../assets/images/error\ 404.png") center center/cover no-repeat;
 }
 </style>
