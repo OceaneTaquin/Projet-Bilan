@@ -29,46 +29,46 @@
 </template>
 
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 import Modal from "./Modal.vue";
 defineProps(["project"]);
 const isOpen = ref(false);
 
 const openModal = () => {
-    isOpen.value = true;
+  isOpen.value = true;
 };
 
 const closeModal = () => {
-    isOpen.value = false;
+  isOpen.value = false;
 };
-
+</script>
 
 <style scoped>
 .project img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .project-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .additional-photo {
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-    display: block;
-    margin-top: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
 }
 
 .project:hover {
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
-    cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
 .project {
-    transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
-</script>
+</style>
