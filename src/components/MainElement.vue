@@ -3,12 +3,7 @@
     <h2>Mes projets</h2>
     <div class="projects-container">
       <!--Utilisation de v-for pour afficher les différents projets-->
-      <Project
-        v-for="(projet, index) in projects"
-        :key="index"
-        :project="project"
-        class="project"
-      />
+      <Project v-for="(projet, index) in projects" :key="index" :project="project" class="project"/>
     </div>
   </div>
 </template>
