@@ -63,7 +63,7 @@ onMounted(() => {
 
 <style scoped>
 .return-top-photo {
-  position: absolute;
+  position: fixed;
   left: 20px;
   top: 20px;
   width: 70px;

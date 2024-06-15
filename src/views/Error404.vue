@@ -21,7 +21,7 @@
 }
 
 .error-image {
-  width: 200em;
+  width: 200px;
   height: 200px;
   background: url("../assets/images/error 404.png") center center/cover no-repeat;
 }
