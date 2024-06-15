@@ -4,9 +4,7 @@
     <a href="https://x.com/Nashiro_Las" target="_blank"><img src="../assets/images/twitter-alt-circle.png" alt="twitter"/></a>
     <a href="https://web.whatsapp.com/" target="_blank"><img src="../assets/images/whatsapp.png" alt="WhatsApp"/></a>
     <p>&copy; 2024 - Mon Projet-Bilan</p>
-    <p>
-      Dernière mise à jour : <time datetime="2024-06-07"> 07 juin 2024</time>
-    </p>
+    <p>Dernière mise à jour : <time datetime="2024-06-15"> 15 juin 2024</time></p>
   </footer>
 </template>
 
@@ -39,7 +37,7 @@ footer a img {
 
 footer a:hover {
   transform: scale(1.2);
-  border-color: #ff6f00;
+  border-color: #b602a4b4;
 }
 
 footer p {

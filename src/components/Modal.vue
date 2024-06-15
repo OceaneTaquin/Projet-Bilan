@@ -46,12 +46,12 @@ defineProps(["isOpen"]);
     right: 20px;
     cursor: pointer;
     font-size: 24px;
-    color: coral;
+    color: rgb(232, 80, 255);
     transition: color 0.5s ease;
     }
 
 .close:hover {
-    color: #f00;
+    color: rgba(155, 0, 169, 0.923);
 }
 
 .modal-fade-enter-active,

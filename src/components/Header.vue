@@ -123,7 +123,7 @@ header nav ul li {
 
 header nav ul li:hover {
   transform: scale(1.1);
-  color: #ff6200;
+  color: #b0007bab;
 }
 
 header nav ul li:not(:last-child) {

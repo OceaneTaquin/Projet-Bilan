@@ -7,7 +7,7 @@
 </template>
 
 <script>
-export default {};
+  export default {};
 </script>
 
 <style scoped>
@@ -21,8 +21,8 @@ export default {};
 }
 
 .error-image {
-  width: 100%;
-  height: 100px;
-  background: url("../assets/images/error\ 404.png") center center/cover no-repeat;
+  width: 200em;
+  height: 200px;
+  background: url("../assets/images/error 404.png") center center/cover no-repeat;
 }
 </style>

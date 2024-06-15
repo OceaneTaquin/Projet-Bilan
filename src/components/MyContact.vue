@@ -53,7 +53,7 @@ export default {
 .contact-form {
   margin: 20px auto;
   max-width: 400px;
-  background-color: azure;
+  background-color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 10 px;
   box-shadow: 0px 0px 15px 0px rgba(200, 0, 255, 0.2);
@@ -62,7 +62,7 @@ export default {
 h2 {
   text-align: center;
   margin-bottom: 20px;
-  color: crimson;
+  color: rgba(194, 145, 11, 0.842);
   font-family: "Playfair Display", serif;
 }
 

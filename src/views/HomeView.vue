@@ -61,9 +61,9 @@ const toggleModal = (value) => {
   margin: 10px;
   text-decoration: none;
   color: #333;
-  background-color: chocolate;
+  background-color: rgb(222, 135, 186);
   border-radius: 10px;
-  border: 2px solid #a129b9;
+  border: 2px solid #d180e1db;
   font-family: "Playfair Display", serif;
   font-size: 10px;
   transition: background-color 0.5s ease;
@@ -71,8 +71,8 @@ const toggleModal = (value) => {
 }
 
 .nav-link:hover {
-  background-color: #a129b9;
-  border-color: rgba(239, 71, 5, 0.929);
+  background-color: #d180e1db;
+  border-color: rgb(222, 135, 186);
 }
 
 #WelcomeItem h1,

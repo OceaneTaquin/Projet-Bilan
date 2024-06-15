@@ -3,7 +3,7 @@
     <h2>Mes projets</h2>
     <div class="projects-container">
       <!--Utilisation de v-for pour afficher les différents projets-->
-      <Project v-for="(project, index) in projects" :key="index" :project="project" class="project" />
+      <Project v-for="(project, index) in projects" :key="index" :project="project" class="project"/>
     </div>
   </div>
 </template>
@@ -27,7 +27,15 @@ const projects = [
     {
         title: "Projet de création d'un cahier des charges",
         description: "Mon second projet a été de concevoir un cahier des charges pour une commande fictive, la consigne demandait de créer un fichier sous format PDF avec une analyse concurrentielle, une estimation des coûts et la création d'une maquette.",
-        img: "/src/assets/images/Cahier des charges.jpeg",
+        img: "/src/assets/images/Cahier des charges 1.jpeg",
+        additionalPhotos: [
+          "/src/assets/images/Cahier des charges 2.jpeg",
+          "/src/assets/images/Cahier des charges 3.jpeg",
+          "/src/assets/images/Cahier des charges 4.jpeg",
+          "/src/assets/images/Cahier des charges 5.jpeg",
+          "/src/assets/images/Cahier des charges 6.jpeg",
+          "/src/assets/images/Cahier des charges 7.jpeg",
+        ]
     },
     {
         title: "Projet d'un espace commentaire dynamique en HTML, CSS et JavaScript",
